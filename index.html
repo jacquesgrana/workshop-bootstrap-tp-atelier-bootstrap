@@ -28,32 +28,82 @@
 
         <div class="col-12 border border-dark">
 
-                <div class="row mt-1 mr-1 ml-1">
-                    <button class="border border-dark offset-8 col-4 perso_button_add">Ajouter un nouveau collaborateur</button>
+            <div class="row mt-1 mr-1 ml-1">
+                <button class="border border-dark offset-8 col-4 perso_button_add">Ajouter un nouveau
+                    collaborateur</button>
+            </div>
+            <div class="row ml-3 text-left">
+                <h1 class="col-12">Les Collaborateurs</h1>
+            </div>
+            <form>
+                <div class="form-group row d-inline mt-3">
+                    <label class="col-4 ml-1 text-right perso_label" for="nom_collab">Rechercher un nom ou prénom qui
+                        commence</label>
+                    <input class="col-2" type="text">
+                    <button class="border border-dark col-2 perso_button_add">Rechercher</button>
+                    <input class="col-1 pr-0" type="checkbox">
+                    <label class="col-5 d-inline text-left pl-0" for="check_collab_desactives"><span
+                            class="perso_label">Voir les collaborateurs désactives</span></label>
                 </div>
-                <div class="row ml-3">
-                    <h1 class="col-12">Les Collaborateurs</h1>
+                <div class="row mt-3">
+                    <label class="col-4 ml-1 text-right perso_label" for="filtre_dept">Filtrer par département</label>
+                    <select class="col-2 perso_button_add">
+                        <option selected>Tous</option>
+                        <option>Comptabilité</option>
+                        <option>Ressources Humaines</option>
+                        <option>Informatique</option>
+                    </select>
                 </div>
-                <form>
-                    <div class="form-group row d-inline">
-                       <label class="col-4 ml-1 text-right perso_label" for="nom_collab">Rechercher un nom ou prénom qui commence</label> 
-                       <input class="col-2" type="text">
-                       <button class="border border-dark col-2 perso_button_add">Rechercher</button>
-                       <input class="col-1" type="checkbox">
-                       <label class="col-5 d-inline text-left" for="check_collab_desactives"><span class="perso_label">Voir les collaborateurs désactives</span></label> 
+            </form>
+
+            <div class="container mt-3 mr-1 ml-1">
+                <div class="d-flex mr-1 ml-3 mr-3">
+                    <div class="col-4 border border-dark mr-2 d-inline p-0">
+
+                        <div class="border border-dark p-2">
+                            <p>Nom Prénom</p>
+                        </div>
+                        <div class="d-flex p-3">
+
+
+                            <img class="border border-dark mr-1" style="max-width:100px; max-height:100px;"
+                                src="image/image1.jpg" />
+                            <div class="ml-1">
+                                <div class="d-block">
+                                    <span class="perso_text">Fonction : </span>
+                                    <span class="perso_text">XXXXXXXXXXXX</span>
+                                </div>
+                                <div class="d-block">
+                                    <span class="perso_text">Département : </span>
+                                    <span class="perso_text">XXXXXXXXXXXX</span>
+                                </div>
+                                <div class="d-block">
+                                    <span class="perso_text">Email : </span>
+                                    <span class="perso_text">XXXXXXXXXXXX</span>
+                                </div>
+                                <div class="d-block">
+                                    <span class="perso_text">Téléphone : </span>
+                                    <span class="perso_text">XXXXXXXXXXXX</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="offset-8 col-4 mr-3 mb-3 d-block border border-dark perso_button_add">Editer</button>
+
                     </div>
-                    <div class="row">
-                        <label class="col-4 ml-1 text-right perso_label" for="filtre_dept">Filtrer par département</label>
-                        <select class="col-2 perso_button_add">
-                            <option selected>Tous</option>
-                            <option>Comptabilité</option>
-                            <option>Ressources Humaines</option>
-                            <option>Informatique</option>
-                        </select>
+
+
+                    <div class="col-4 border border-dark ml-2 mr-2 d-inline ">
+                        <p class="">test</p>
                     </div>
-                </form>
-                
-            
+                    <div class="col-4 border border-dark ml-2 d-inline ">
+                        <p class="">test</p>
+                    </div>
+                </div>
+
+            </div>
+
+
         </div>
     </div>
 
