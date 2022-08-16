@@ -34,6 +34,25 @@
                 <div class="row ml-3">
                     <h1 class="col-12">Les Collaborateurs</h1>
                 </div>
+                <form>
+                    <div class="form-group row d-inline">
+                       <label class="col-4 ml-1 text-right perso_label" for="nom_collab">Rechercher un nom ou prénom qui commence</label> 
+                       <input class="col-2" type="text">
+                       <button class="border border-dark col-2 perso_button_add">Rechercher</button>
+                       <input class="col-1" type="checkbox">
+                       <label class="col-5 d-inline text-left" for="check_collab_desactives"><span class="perso_label">Voir les collaborateurs désactives</span></label> 
+                    </div>
+                    <div class="row">
+                        <label class="col-4 ml-1 text-right perso_label" for="filtre_dept">Filtrer par département</label>
+                        <select class="col-2 perso_button_add">
+                            <option selected>Tous</option>
+                            <option>Comptabilité</option>
+                            <option>Ressources Humaines</option>
+                            <option>Informatique</option>
+                        </select>
+                    </div>
+                </form>
+                
             
         </div>
     </div>

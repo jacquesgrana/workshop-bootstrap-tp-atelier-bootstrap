@@ -12,3 +12,7 @@
 .perso_button_add:hover {
     background-color: rgb(49, 155, 226);
 }
+
+.perso_label {
+    font-size: 0.75rem;
+}
