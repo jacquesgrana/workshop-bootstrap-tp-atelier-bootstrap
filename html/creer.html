@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container p-0 pb-3" style="margin-top:30px;">
+        <!-- border border-dark  style="border: 5px solid black;" -->
+        <nav class="navbar navbar-expand-sm bg-light navbar-light border border-primary pt-0 pb-0">
+            <a class="navbar-brand" href="#">Accueil</a>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link nav-item-selected" href="">Collaborateurs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Statistiques</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Activités</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="col-12 border border-primary pb-3 pr-3">
+            <div class="row ml-2 text-left mb-3">
+                <h1 class="col-12 mt-3">Nouveau Collaborateur</h1>
+            </div>
+            <form class="container">
+                <div class="form-group row mt-3">
+                    <label class="col-4 ml-1 perso_label" for="nom_collab">Nom</label>
+                    <input class="col-6 " type="text">
+                </div>
+                <div class="form-group row mt-3">
+                    <label class="col-4 ml-1 perso_label" for="prenom_collab">Prénom</label>
+                    <input class="col-6" type="text">
+                </div>
+                <div class="form-group row mt-3">
+                    <label class="col-4 ml-1 perso_label" for="date_collab">Date de naissance</label>
+                    <input class="col-6" type="date">
+                </div>
+                <div class="form-group row mt-3">
+                    <label class="col-4 ml-1 perso_label" for="adresse_collab">Adresse</label>
+                    <textarea class="col-6" type="textarea" rows="3"></textarea>
+                </div>
+                <div class="form-group row mt-3">
+                    <label class="col-4 ml-1 perso_label" for="prenom_collab">Numéro de sécurité sociale</label>
+                    <input class="col-6" type="text">
+                </div>
+                <div class="form-group row mt-3">
+                    <button class="offset-8 col-2 border border-primary perso_button_add">Créer</button>
+                </div>
+                
+    
+            </form>
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>
