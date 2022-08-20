@@ -4,13 +4,20 @@
     border: 5px solid black;
 }
 */
+.perso_block_edit,
+.bg-light {
+    background-color: rgb(226, 242, 253) !important;
+}
+
+.perso_block_edit:hover,
 .nav-item-selected {
-    background-color: rgb(153, 211, 250);
+    background-color: rgb(153, 211, 250) !important;
 }
 
 .nav-item:hover {
     background-color: rgb(49, 155, 226);
 }
+
 
 .perso_button_add:hover {
     background-color: rgb(49, 155, 226);
