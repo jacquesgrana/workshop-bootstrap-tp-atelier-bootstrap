@@ -48,6 +48,10 @@
     margin-top: -4px; 
 }
 
+.border-2-top-2 {
+    border-width:2px 0px 0px 0px !important;
+}
+
 .border-2-bottom-2 {
     border-width:0px 0px 2px 0px !important;
 }
