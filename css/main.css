@@ -34,3 +34,20 @@
 .perso_row {
     height: 1.6rem;
 }
+
+.border-5 {
+    border-width:5px !important;
+}
+
+.border-2 {
+    border-width:2px !important;
+}
+
+.border-2-top-1 {
+    border-width:0px 2px 2px 2px !important;
+    margin-top: -4px; 
+}
+
+.border-2-bottom-2 {
+    border-width:0px 0px 2px 0px !important;
+}
